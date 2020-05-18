@@ -1,8 +1,8 @@
 export default
 class Location{
     constructor(x , y){
-        this.x = x;
-        this.y = y;
+        this.x = +x;
+        this.y = +y;
     }
     equals(loc){
         return loc.x === this.x && loc.y === this.y;
